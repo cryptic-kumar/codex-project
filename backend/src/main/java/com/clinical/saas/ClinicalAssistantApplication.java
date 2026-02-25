@@ -1,0 +1,11 @@
+package com.clinical.saas;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ClinicalAssistantApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ClinicalAssistantApplication.class, args);
+    }
+}
